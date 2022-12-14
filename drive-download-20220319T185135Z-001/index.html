@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Felicitaciones</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<!--- Crea canvas --->
+		
+		<br>
+		<!--- Crea un botón Bootstrap --->
+		
+	</center>
+	<audio id="myAudio" src="bdayaudio.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+<canvas width="600" height="500" id="myCanvas">
+	
+	#myCanvas
+	{
+		border-width: 10px;
+		backround-color; white;
+		border-style: ridge;
+		border-color: darkviolet;
+	
+	}
+
+function new_image()
+{
+	fabric.Image.fromURL('BirthdayImage.jpg', function(Img)){
+		block_image_object=Img;
+		block_image_object.scakeToWidth(700);
+		block_image_object.scaleToHeight(510);
+	block_image_object.set({
+		top:0,
+		left_0
+
+	});
+canvas.add(block_image_object);
+	}
+}
+
+	
+</canvas>
+</html>
